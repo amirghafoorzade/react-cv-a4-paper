@@ -1,10 +1,14 @@
 import React, { FC } from "react";
 import ProfileImg from "assets/images/profile.jpg";
+import ContactCallImg from "assets/images/PhoneIcon.png";
+import ContactMailImg from "assets/images/MailIcon.png";
 import Container from "layouts/Container";
+import ContactContainer from "layouts/ContactContainer/ContactContainer";
 import Headline from "components/Headline";
+import Field from "components/Field";
+import Contact from "components/Contact/Contact";
 import { ISidebarProps } from "./Sidebar.interface";
 import styles from "./Sidebar.module.scss";
-import Field from "components/Field";
 
 const Sidebar: FC<ISidebarProps> = ({ children }) => {
   return (
@@ -12,7 +16,7 @@ const Sidebar: FC<ISidebarProps> = ({ children }) => {
       <img src={ProfileImg} alt="" className={styles["profile-img"]} />
       <h1 className={styles["name"]}>امیر غفورزاده</h1>
       <h2 className={styles["position"]}>Full Stack Developer</h2>
-      <Container>
+      <Container className={styles["desc-cont"]}>
         <Headline>مشخصات فردی</Headline>
         <Field title="سن" desc="21 سال" />
         <Field title="جنسیت" desc="مرد" />
@@ -22,6 +26,10 @@ const Sidebar: FC<ISidebarProps> = ({ children }) => {
         <Field title="سابقه کاری" desc="4 سال" />
         <Headline>ترجیحات شغلی</Headline>
         <Field title="نوع قرارداد" desc="دورکاری ، تمام وقت" />
+        <ContactContainer>
+          <Contact image={ContactCallImg} title="+98-913-323-7325" />
+          <Contact image={ContactMailImg} title="ghafourzadea@gmail.com" />
+        </ContactContainer>
       </Container>
     </div>
   );
