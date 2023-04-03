@@ -1,5 +1,6 @@
 .tagContainer {
   direction: ltr;
   display: flex;
-  gap: 4mm;
+  gap: 2mm;
+  flex-wrap: wrap;
 }

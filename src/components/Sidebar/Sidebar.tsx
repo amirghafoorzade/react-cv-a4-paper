@@ -9,13 +9,14 @@ import Field from "components/Field";
 import Contact from "components/Contact/Contact";
 import { ISidebarProps } from "./Sidebar.interface";
 import styles from "./Sidebar.module.scss";
+import { TITLE } from "constants/data";
 
 const Sidebar: FC<ISidebarProps> = ({ children }) => {
   return (
     <div className={styles["sidebar"]}>
       <img src={ProfileImg} alt="" className={styles["profile-img"]} />
       <h1 className={styles["name"]}>امیر غفورزاده</h1>
-      <h2 className={styles["position"]}>Full Stack Developer</h2>
+      <h2 className={styles["position"]}>{TITLE()}</h2>
       <Container className={styles["desc-cont"]}>
         <Headline>مشخصات فردی</Headline>
         <Field title="سن" desc="21 سال" />

@@ -1,0 +1,17 @@
+@import "assets/styles/modules/colors.scss";
+
+.aboutMe {
+  p {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      right: 2mm;
+      top: 2mm;
+      width: 1.6mm;
+      height: 1.6mm;
+      border-radius: 8mm;
+      background-color: $color-pallete-1;
+    }
+  }
+}
