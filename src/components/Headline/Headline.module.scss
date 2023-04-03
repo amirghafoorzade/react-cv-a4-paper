@@ -1,0 +1,29 @@
+@import "assets/styles/modules/colors.scss";
+
+.headline {
+  display: flex;
+  align-items: center;
+  gap: 2mm;
+  margin-top: 8mm;
+  font-size: 4.6mm;
+  font-weight: 400;
+  span {
+    width: 2mm;
+    height: 2mm;
+    border-radius: 100%;
+  }
+}
+
+.primary {
+  color: $color-white;
+  span {
+    background-color: $color-white;
+  }
+}
+
+.secondary {
+  color: $color-pallete-3;
+  span {
+    background-color: $color-pallete-3;
+  }
+}

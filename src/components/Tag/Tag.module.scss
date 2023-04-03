@@ -1,0 +1,9 @@
+@import "assets/styles/modules/colors.scss";
+
+.tag {
+  padding: 2mm 4mm;
+  border-radius: 2mm;
+  font-family: Roboto;
+  background-color: $color-pallete-3;
+  color: $color-white;
+}

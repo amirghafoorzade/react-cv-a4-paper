@@ -1,0 +1,13 @@
+@import "./modules/**/*";
+
+body {
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
+  font-family: iransans;
+  background-color: $color-grey-300;
+  font-size: 3.6mm;
+}
+
+#root {
+  width: 100%;
+}

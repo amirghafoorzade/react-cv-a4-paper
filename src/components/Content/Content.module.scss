@@ -1,0 +1,13 @@
+@import "assets/styles/modules/colors.scss";
+
+.content {
+  flex: 2;
+  p {
+    text-indent: 6mm;
+    color: $color-grey-700;
+  }
+  b {
+    font-weight: 700;
+    color: $color-grey-900;
+  }
+}

@@ -1,0 +1,17 @@
+@import "assets/styles/modules/colors.scss";
+
+.home {
+  display: flex;
+  width: 21cm;
+  height: 29.7cm;
+  margin: 4rem auto;
+  background-color: $color-white;
+  box-shadow: 0 0 16px -4px rgba($color: $color-dark, $alpha: 0.2);
+}
+
+@media print {
+  .home {
+    margin: 0;
+    box-shadow: 0;
+  }
+}

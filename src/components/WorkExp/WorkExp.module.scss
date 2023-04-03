@@ -1,0 +1,37 @@
+@import "assets/styles/modules/colors.scss";
+
+.workExp {
+  position: relative;
+  display: flex;
+  padding: 4mm 4mm 6mm;
+  gap: 4mm;
+  border-radius: 4mm;
+  background-color: rgba($color: $color-pallete-3, $alpha: 0.2);
+  p {
+    text-indent: 0 !important;
+  }
+  .photo {
+    width: 20mm;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2mm;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 6mm;
+    h3 {
+      font-size: 4.6mm;
+      font-weight: 700;
+    }
+  }
+  .date {
+    position: absolute;
+    bottom: 0;
+    left: 6mm;
+    transform: translate(0, 50%);
+    font-size: 3.2mm;
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "usesTypeScript": true,
+  "usesCssModule": true,
+  "cssPreprocessor": "scss",
+  "testLibrary": "none",
+  "component": {
+    "default": {
+      "path": "src/components",
+      "withStyle": true,
+      "withIndex": true,
+      "withInterface": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "index": ".app/cli/templates/component/index.ts",
+        "component": ".app/cli/templates/component/TemplateName.tsx",
+        "interface": ".app/cli/templates/component/TemplateName.interface.ts",
+        "style": ".app/cli/templates/component/TemplateName.module.scss"
+      }
+    },
+    "component": {
+      "path": "src/components",
+      "withStyle": true,
+      "withIndex": true,
+      "withInterface": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "index": ".app/cli/templates/component/index.ts",
+        "component": ".app/cli/templates/component/TemplateName.tsx",
+        "interface": ".app/cli/templates/component/TemplateName.interface.ts",
+        "style": ".app/cli/templates/component/TemplateName.module.scss"
+      }
+    },
+    "view": {
+      "path": "src/views",
+      "withStyle": true,
+      "withIndex": true,
+      "withInterface": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "index": ".app/cli/templates/view/index.ts",
+        "component": ".app/cli/templates/view/TemplateName.tsx",
+        "interface": ".app/cli/templates/view/TemplateName.interface.ts",
+        "style": ".app/cli/templates/view/TemplateName.module.scss"
+      }
+    },
+    "layout": {
+      "path": "src/layouts",
+      "withStyle": true,
+      "withIndex": true,
+      "withInterface": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "index": ".app/cli/templates/layout/index.ts",
+        "component": ".app/cli/templates/layout/TemplateName.tsx",
+        "interface": ".app/cli/templates/layout/TemplateName.interface.ts",
+        "style": ".app/cli/templates/layout/TemplateName.module.scss"
+      }
+    },
+    "hook": {
+      "path": "src/hooks",
+      "withStyle": false,
+      "withIndex": true,
+      "withInterface": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "index": ".app/cli/templates/hook/index.ts",
+        "component": ".app/cli/templates/hook/TemplateName.ts",
+        "interface": ".app/cli/templates/hook/TemplateName.interface.ts"
+      }
+    },
+    "store": {
+      "path": "src/stores",
+      "withStyle": false,
+      "withIndex": true,
+      "withInterface": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "index": ".app/cli/templates/store/index.ts",
+        "component": ".app/cli/templates/store/TemplateName.ts",
+        "interface": ".app/cli/templates/store/TemplateName.interface.ts"
+      }
+    }
+  },
+  "usesStyledComponents": false
+}

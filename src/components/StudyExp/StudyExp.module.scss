@@ -1,0 +1,13 @@
+@import "assets/styles/modules/colors.scss";
+
+.studyExp {
+  position: relative;
+  display: flex;
+  padding: 4mm 4mm 6mm;
+  gap: 4mm;
+  border-radius: 4mm;
+  background-color: rgba($color: $color-pallete-3, $alpha: 0.2);
+  .photo {
+    width: 20mm;
+  }
+}
